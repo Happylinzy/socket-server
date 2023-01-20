@@ -1,7 +1,7 @@
 # C++ Server with Socket
 This project implements a client with 4 servers in 2 layers.
 
-Client --- Central Server(ServerM) --- Certificate Server(ServerC)
+Client -- Central Server(ServerM) -- Certificate Server(ServerC)
 
                                     |
 
@@ -19,7 +19,8 @@ WorkFlow:
     serverM, serverC, serverCS, serverEE, client
 
 ## What are components for
-    **serverM** is responsible for receiving requests from client and sending to corresponding backend server. **serverC** deals with authentication request. **serverCS** and **serverEE** deal with query request. **client** is used to send request based on user inputs through standard IO.
+
+    *serverM* is responsible for receiving requests from client and sending to corresponding backend server. *serverC* deals with authentication request. *serverCS* and *serverEE* deal with query request. *client* is used to send request based on user inputs through standard IO.
 
 ## How to start
     $make
