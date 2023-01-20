@@ -1,10 +1,7 @@
 # C++ Server with Socket
 This project implements a client with 4 servers in 2 layers.
 
-Client -- Central Server(ServerM) -- Certificate Server(ServerC)
-                                    |
-                                    |
-                                    -- Record Server(ServerCS, ServerEE)
+Client -- Central Server(ServerM) -- Certificate Server(ServerC), Record Server(ServerCS, ServerEE)
                                 
 WorkFlow:
     1 client type in username and passport in cred.txt.
